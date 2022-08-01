@@ -8,11 +8,11 @@ class Config(object):
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'udacityarticlecms'
     BLOB_STORAGE_KEY = os.environ.get(
-        'BLOB_STORAGE_KEY') or '2/SqZI8axKVUkHeqgVgc2+HzeWvkUQC2J+Z1j6trbNG7tkptvYnbBFgznsxMcyGBWBvr1ewZnhO1+ASt9evP7g=='
+        'BLOB_STORAGE_KEY') or 'TVBgmGdsXtt5BTd9Sx9Ht2BemaitMa39ZwaOpHl2vDGv2sV/kSl8p86rLgM5T2DjspTi0UZTp0aL+AStMkqUxQ=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get(
-        'SQL_SERVER') or 'udacity-project.database.windows.net'
+        'SQL_SERVER') or 'udacity-project1.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'udacityarticlecms'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'udacityadmin'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'udacity@1'
